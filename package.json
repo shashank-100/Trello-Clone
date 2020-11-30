@@ -4,8 +4,7 @@
   "homepage": "http://chingu-voyage7.github.io/Geckos-Team-14",
   "private": true,
   "engines": {
-    "node": "0.12.x",
-    "npm": "2.5.x"
+    "npm": "6.x"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.8",
