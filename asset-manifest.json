@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Trello-Clone/static/css/main.3ebdb974.css",
+    "main.js": "/Trello-Clone/static/js/main.57a9f877.js",
+    "static/media/scene3.jpg": "/Trello-Clone/static/media/scene3.a77849dfe2b5cf1a9b82.jpg",
+    "static/media/scene1.jpg": "/Trello-Clone/static/media/scene1.a4eea999c1982729c25d.jpg",
+    "static/media/sunset.jpg": "/Trello-Clone/static/media/sunset.f8b6424e3fb4c8033996.jpg",
+    "static/media/scene7.jpg": "/Trello-Clone/static/media/scene7.e1e644c8abde77d29efe.jpg",
+    "static/media/dragon.jpg": "/Trello-Clone/static/media/dragon.aad0c39ba906bcfa28d9.jpg",
+    "static/media/scene9.jpg": "/Trello-Clone/static/media/scene9.77a786d98a9fe133f8c4.jpg",
+    "static/media/scene2.jpg": "/Trello-Clone/static/media/scene2.34afb00f550577645536.jpg",
+    "static/media/scene5.jpg": "/Trello-Clone/static/media/scene5.997bd6c77dafd0a7b959.jpg",
+    "static/media/scene6.jpg": "/Trello-Clone/static/media/scene6.37c6ecdcab58d3db7202.jpg",
+    "static/media/scene4.jpg": "/Trello-Clone/static/media/scene4.85e9afc14acfc9a4ff2e.jpg",
+    "static/media/scene8.jpg": "/Trello-Clone/static/media/scene8.c17851030faed45fa307.jpg",
+    "index.html": "/Trello-Clone/index.html",
+    "main.3ebdb974.css.map": "/Trello-Clone/static/css/main.3ebdb974.css.map",
+    "main.57a9f877.js.map": "/Trello-Clone/static/js/main.57a9f877.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ebdb974.css",
+    "static/js/main.57a9f877.js"
+  ]
+}
