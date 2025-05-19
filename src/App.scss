@@ -1,11 +1,17 @@
 @import './sass/main.scss';
 
 .App {
-
+  min-height: 100vh;
+  background-color: #f8fafc;
+  background-image:
+    radial-gradient(circle, #bfc3cc 1.5px, transparent 1.5px),
+    radial-gradient(circle, #bfc3cc 1.5px, transparent 1.5px);
+  background-size: 32px 32px;
+  background-position: 0 0, 16px 16px;
+  font-family: 'Inter', 'Open Sans', sans-serif;
   text-align: left;
   background-attachment: fixed;
   background-size: cover;
-  height: 100vh;
   white-space: nowrap;
   overflow-x: scroll;
   &-header > .list {
@@ -13,10 +19,12 @@
   }
   z-index: 1;
 }
+
 input {
   font-family: 'Slabo 27px';
   font-size: 15px;
 }
+
 .App-header {
   padding-top: 100px;
 }
@@ -50,3 +58,43 @@ input {
 //   }
 
 // }
+
+button {
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: #fff;
+  padding: 10px 18px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+  &:hover {
+    background: #1e40af;
+  }
+}
+
+.list {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(60,60,60,0.07);
+  padding: 20px 16px;
+  margin: 0 16px;
+  min-width: 300px;
+  transition: box-shadow 0.2s;
+  &:hover {
+    box-shadow: 0 4px 16px rgba(60,60,60,0.12);
+  }
+}
+
+.card {
+  background: #f4f6fa;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  padding: 14px 12px;
+  box-shadow: 0 1px 3px rgba(60,60,60,0.05);
+  transition: box-shadow 0.2s;
+  &:hover {
+    box-shadow: 0 2px 8px rgba(60,60,60,0.10);
+  }
+}

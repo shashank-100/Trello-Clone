@@ -71,7 +71,7 @@ class App extends Component {
     const { lists, cards, listOrder } = this.props.state.state;
     return (
       <div className="App" style={styleType}>
-        <SimpleStorage parent={this} prefix={"Geckos14_Trello_Clone"} />
+        <SimpleStorage parent={this} prefix={"TrelloClone"} />
         <TrelloNav />
         <BoardNav
           handleBackgroundChange={this.handleBackgroundChange}

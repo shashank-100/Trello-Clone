@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import BoardTitleMenu from "./BoardTitleMenu.js";
 import MainMenu from "../MainMenu.js";
 import Team from "../Team.js";
-import uuid from "uuid";
+import { v4 as uuid } from "uuid";
 import SimpleStorage from "react-simple-storage";
 
 class BoardNav extends Component {
@@ -162,8 +162,7 @@ class BoardNav extends Component {
               <i className="far fa-star"></i>
             </button>
             <span className="divider"></span>
-            <span className="group">Chingu</span>
-            <span className="divider"></span>
+            {/* Branding removed */}
             <div className="full-team">
               <Team
                 teamMembers={this.state.team}

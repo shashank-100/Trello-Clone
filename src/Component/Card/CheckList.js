@@ -101,7 +101,7 @@ class CheckList extends Component {
             <div className="progress-bar">
               <div className="progress-bar__inner" style={percentageComplete}>
                 <span className="progress-percent-display">
-                  {progressPct == 0 ? "\xa0" : progressPct + "%"}
+                  {progressPct === 0 ? "\xa0" : progressPct + "%"}
                 </span>
               </div>
             </div>

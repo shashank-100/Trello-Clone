@@ -1,4 +1,4 @@
-import uuid from "uuid";
+import { v4 as uuid } from "uuid";
 import {
   ADD_LIST,
   DELETE_LIST,
@@ -27,7 +27,7 @@ const initialState = {
   listOrder: []
 };
 
-export default function(state = initialState, action) {
+export default function cardListReducer(state = initialState, action) {
   switch (action.type) {
     case ADD_LIST: {
       const { lists } = state;
